@@ -12,9 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RizkiHidayah_PRAKTISI"
         tools:targetApi="31" >
+      
         <activity
             android:name=".SecondActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/title_activity_second"
+            android:theme="@style/Theme.RizkiHidayah_PRAKTISI"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -27,5 +30,6 @@
             </intent-filter>
         </activity>
     </application>
-
+    <!--permissions for INTERNET-->
+    <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
